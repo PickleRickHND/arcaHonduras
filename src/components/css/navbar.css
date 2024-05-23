@@ -1,0 +1,69 @@
+/* DESKTOP DEVICES */
+@media screen and (max-width: 4025px) {
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1d1468;
+    padding: 20px 100px 20px 100px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+  }
+
+  #navbarImage {
+    width: 14%;
+  }
+
+  #navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #navbar li {
+    list-style: none;
+    margin: 0 20px;
+    position: relative;
+  }
+
+  #navbar li a {
+    text-decoration: none;
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: white;
+    transition: 0.2s ease-in-out;
+    position: relative;
+  }
+
+  #navbar li a::after {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #ff7700;
+    transform: scaleX(0);
+    transition: transform 0.2s ease-in-out;
+  }
+
+  #navbar li a:hover::after {
+    transform: scaleX(1);
+  }
+
+  #mobileMenuButton {
+    display: none;
+  }
+}
+
+
+/* MOBILE DEVICES */
+@media screen and (max-width: 767px) {
+}
+
+/* iPAD MINI DEVICES */
+@media screen and (min-width: 768px) and (max-width: 850px) {
+}
+
+/* iPAD & TABLET DEVICES */
+@media screen and (min-width: 851px) and (max-width: 1024px) {
+}
