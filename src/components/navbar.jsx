@@ -4,9 +4,9 @@ import React, { Component } from "react";
 class Navbar extends Component {
   state = { clicked: false };
 
-  handleHamburgerClick = () => { 
+  handleHamburgerClick = () => {
     this.setState({ clicked: !this.state.clicked });
-  }
+  };
 
   render() {
     return (
@@ -19,7 +19,11 @@ class Navbar extends Component {
           />
 
           <div>
-            <ul id="navbar">
+            <ul
+              id="navbar"
+              className={this.state.clicked ? "activeNavbar" : "#navbar"}
+            >
+              <p>MENU</p>
               <li>
                 <a href="#1">¿Quienes Somos?</a>
               </li>
@@ -41,14 +45,10 @@ class Navbar extends Component {
             </ul>
           </div>
 
-          <div id="mobileMenuButton_div">
+          <div id="mobileMenuButton_div" onClick={this.handleHamburgerClick}>
             <i
               id="hamburgerMenu"
-              className={
-                this.state.clicked
-                  ? "fa-solid fa-xmark-large"
-                  : "fa-solid fa-bars"
-              }
+              className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}
             ></i>
           </div>
         </nav>
