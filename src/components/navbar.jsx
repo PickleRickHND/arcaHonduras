@@ -52,7 +52,7 @@ class Navbar extends Component {
                   <i
                     class={
                       this.state.arrows["arrow1"]
-                        ? "fas fa-angle-down"
+                        ? "fas fa-angle-right"
                         : "fas fa-angle-right"
                     }
                   ></i>
@@ -87,7 +87,7 @@ class Navbar extends Component {
                   <i
                     class={
                       this.state.arrows["arrow2"]
-                        ? "fas fa-angle-down"
+                        ? "fas fa-angle-right"
                         : "fas fa-angle-right"
                     }
                   ></i>
@@ -122,7 +122,7 @@ class Navbar extends Component {
                   <i
                     class={
                       this.state.arrows["arrow3"]
-                        ? "fas fa-angle-down"
+                        ? "fas fa-angle-right"
                         : "fas fa-angle-right"
                     }
                   ></i>
@@ -157,7 +157,7 @@ class Navbar extends Component {
                   <i
                     class={
                       this.state.arrows["arrow4"]
-                        ? "fas fa-angle-down"
+                        ? "fas fa-angle-right"
                         : "fas fa-angle-right"
                     }
                   ></i>
@@ -192,7 +192,7 @@ class Navbar extends Component {
                   <i
                     class={
                       this.state.arrows["arrow5"]
-                        ? "fas fa-angle-down"
+                        ? "fas fa-angle-right"
                         : "fas fa-angle-right"
                     }
                   ></i>
@@ -227,7 +227,7 @@ class Navbar extends Component {
                   <i
                     class={
                       this.state.arrows["arrow6"]
-                        ? "fas fa-angle-down"
+                        ? "fas fa-angle-right"
                         : "fas fa-angle-right"
                     }
                   ></i>
