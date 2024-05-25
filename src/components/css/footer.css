@@ -1,114 +1,114 @@
 /* DESKTOP DEVICES */
-@media screen and (max-width: 4025px){
-.section_padding {
-  padding: 20px 50px 30px 50px;
-}
+@media screen and (max-width: 4025px) {
+  .section_padding {
+    padding: 20px 50px 30px 50px;
+  }
 
-.footer {
-  background-color: #1d1468;
-}
+  .footer {
+    background-color: #20146c;
+  }
 
-#footerImage {
-  width: 100%;
-  margin-bottom: 10px;
-}
+  #footerImage {
+    width: 100%;
+    margin-bottom: 10px;
+  }
 
-._footer {
-  display: flex;
-  flex-direction: column;
-}
+  ._footer {
+    display: flex;
+    flex-direction: column;
+  }
 
-.footer_links {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-  text-align: left;
-  margin-bottom: 1rem;
-}
+  .footer_links {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 1rem;
+  }
 
-.footer_links_div {
-  width: 200px;
-  margin: 1rem;
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
-  color: white;
-}
+  .footer_links_div {
+    width: 200px;
+    margin: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    color: white;
+  }
 
-a {
-  color: white;
-  text-decoration: none;
-}
+  a {
+    color: white;
+    text-decoration: none;
+  }
 
-.footer_links_div h4 {
-  font-size: 17px;
-  line-height: 17px;
-  margin-bottom: 1rem;
-  text-align: center;
-}
+  .footer_links_div h4 {
+    font-size: 17px;
+    line-height: 17px;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
 
-.footer_links_div h6 {
-  font-size: 13px;
-  line-height: 20px;
-  margin-bottom: 0.4rem;
-  text-align: left;
-}
+  .footer_links_div h6 {
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 0.4rem;
+    text-align: left;
+  }
 
-.footer_links_div p {
-  font-size: 15px;
-  line-height: 15px;
-  margin: 0.4rem;
-  cursor: pointer;
-}
+  .footer_links_div p {
+    font-size: 15px;
+    line-height: 15px;
+    margin: 0.4rem;
+    cursor: pointer;
+  }
 
-.footer_links_div p:hover {
-  color: #ff7700;
-  transition: 0.2s ease-in-out;
-}
+  .footer_links_div p:hover {
+    color: #ff7700;
+    transition: 0.2s ease-in-out;
+  }
 
-.social_media_icons i:hover {
-  color: #ff7700;
-  transition: 0.2s ease-in-out;
-}
+  .social_media_icons i:hover {
+    color: #ff7700;
+    transition: 0.2s ease-in-out;
+  }
 
-.footer_links_div i {
-  padding-right: 10px;
-}
+  .footer_links_div i {
+    padding-right: 10px;
+  }
 
-.social_media_icons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 30px 100px 30px 10px;
-}
+  .social_media_icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 100px 30px 10px;
+  }
 
-.social_media_icons a p i {
-  font-size: 40px;
-  margin: 0 0.3rem 0.5rem;
-  color: white;
-}
+  .social_media_icons a p i {
+    font-size: 40px;
+    margin: 0 0.3rem 0.5rem;
+    color: white;
+  }
 
-.footer_below {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-top: 0.8rem;
-}
+  .footer_below {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0.8rem;
+  }
 
-hr {
-  color: white !important;
-  width: 100%;
-}
+  hr {
+    color: white !important;
+    width: 100%;
+  }
 
-.footer_copyright p {
-  font-size: 15px;
-  line-height: 15px;
-  color: white;
-  font-weight: 200;
-}
+  .footer_copyright p {
+    font-size: 15px;
+    line-height: 15px;
+    color: white;
+    font-weight: 200;
+  }
 }
 
 /* MOBILE DEVICES */
@@ -118,7 +118,7 @@ hr {
   }
 
   .footer {
-    background-color: #1d1468;
+    background-color: #20146c;
   }
 
   #footerImage {
@@ -231,7 +231,7 @@ hr {
   }
 
   .footer {
-    background-color: #1d1468;
+    background-color: #20146c;
   }
 
   #footerImage {
@@ -346,7 +346,7 @@ hr {
   }
 
   .footer {
-    background-color: #1d1468;
+    background-color: #20146c;
   }
 
   #footerImage {
