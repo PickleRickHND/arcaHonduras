@@ -1,0 +1,76 @@
+/* DESKTOP DEVICES */
+@media screen and (max-width: 4025px) {
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    height: 50px;
+    width: 50px;
+  }
+
+  .carousel-image {
+    height: 50vh;
+    object-fit: cover;
+    object-position: center;
+  }
+
+}
+
+/* MOBILE DEVICES */
+@media screen and (max-width: 767px) {
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    height: 25px;
+    width: 25px;
+  }
+
+  .carousel-image {
+    height: 50vh;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .Carousel {
+    padding-top: 79px;
+    z-index: -1 !important;
+  }
+}
+
+/* iPAD MINI DEVICES */
+@media screen and (min-width: 768px) and (max-width: 850px) {
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    height: 35px;
+    width: 35px;
+  }
+
+  .carousel-image {
+    height: 50vh;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .Carousel {
+    padding-top: 89px;
+    z-index: -1 !important;
+  }
+}
+
+/* iPAD & TABLET DEVICES */
+@media screen and (min-width: 851px) and (max-width: 1024px) {
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    height: 40px;
+    width: 40px;
+  }
+
+  .carousel-image {
+    height: 50vh;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .Carousel {
+    padding-top: 93px;
+    z-index: -1 !important;
+    width: 1025px;
+  }
+}

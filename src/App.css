@@ -42,3 +42,8 @@
     transform: rotate(360deg);
   }
 }
+
+.Navbar {
+  position: relative;
+  z-index: 10;
+}
