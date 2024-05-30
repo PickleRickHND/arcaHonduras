@@ -20,13 +20,14 @@
 
   .footer_links {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: flex-start;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
     text-align: left;
     margin-bottom: 12px;
+    column-gap: 100px;
   }
 
   .footer_links_div {
@@ -44,7 +45,7 @@
   }
 
   .footer_links_div h4 {
-    font-size: 17px;
+    font-size: 16px;
     line-height: 17px;
     margin-bottom: 1rem;
     text-align: center;
@@ -58,7 +59,7 @@
   }
 
   .footer_links_div p {
-    font-size: 15px;
+    font-size: 14px;
     line-height: 15px;
     margin: 0.4rem;
     cursor: pointer;
@@ -104,8 +105,8 @@
   }
 
   .footer_copyright p {
-    font-size: 15px;
-    line-height: 15px;
+    font-size: 12px;
+    line-height: 1px;
     color: white;
     font-weight: 200;
   }
@@ -246,13 +247,14 @@
 
   .footer_links {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: flex-start;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
     text-align: left;
     margin-bottom: 1rem;
+    column-gap: 16px;
   }
 
   .footer_links_div {
@@ -362,13 +364,14 @@
 
   .footer_links {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: flex-start;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
     text-align: left;
     margin-bottom: 1rem;
+    column-gap: 120px;
   }
 
   .footer_links_div {

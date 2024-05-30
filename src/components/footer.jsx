@@ -28,6 +28,14 @@ const Footer = () => {
                 <i class="fa-solid fa-phone"></i>+504 2257 - 1618
               </p>
             </a>
+            <a
+              href="https://www.facebook.com/ArcadeHondurasTegucigalpa"
+              target="blank"
+            >
+              <p>
+                <i class="fa-brands fa-facebook"></i>Facebook
+              </p>
+            </a>
             <a href="https://maps.app.goo.gl/UhcG5X3EiCc3daVK9" target="blank">
               <p>
                 <i class="fa-solid fa-location-dot"></i>Ubicación
@@ -47,30 +55,16 @@ const Footer = () => {
                 <i class="fa-solid fa-phone"></i>+504 2780 - 0403
               </p>
             </a>
-
+            <a href="https://www.facebook.com/ArcaCholuteca" target="blank">
+              <p>
+                <i class="fa-brands fa-facebook"></i>Facebook
+              </p>
+            </a>
             <a href="https://maps.app.goo.gl/SyJ9GcYZrfXdGTUWA" target="blank">
               <p>
                 <i class="fa-solid fa-location-dot"></i>Ubicación
               </p>
             </a>
-          </div>
-
-          <div className="footer_links_div">
-            <div className="social_media_icons">
-              <a
-                href="https://www.facebook.com/larchehondurasoficial"
-                target="blank"
-              >
-                <p>
-                  <i class="fa-brands fa-facebook"></i>
-                </p>
-              </a>
-              <a href="https://www.instagram.com/elarca_hn/" target="blank">
-                <p>
-                  <i class="fa-brands fa-instagram"></i>
-                </p>
-              </a>
-            </div>
           </div>
 
           <hr></hr>
